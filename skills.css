@@ -1,0 +1,228 @@
+
+*{
+
+    box-sizing: border-box;
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+    background: #eefdfa;
+    font-family: sans-serif;
+
+}
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+    float: left;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.header-height{height: 100px;}
+.menu-height{height: 50px;}
+.content-height{height: 2150px;}
+
+
+.logo{
+
+    margin: 15%;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+nav{
+    display: flex;
+    width: 95%;
+    margin: 1%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li{
+    align-content: center;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+nav ul li a:hover{
+    color: palevioletred;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    transition: .2s;
+    
+}
+
+.education{
+    max-width: 95%;
+    padding: 10% 15%;
+}
+
+.education h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.education div{
+    height: auto;
+    width: 550px;
+    display: list-item;
+    margin-bottom: 15px;
+}
+
+.education div h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.institute{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.info{
+    font-size: 15px;
+    color: #f9004d;
+    margin-bottom: 3px;
+}
+
+.skills{
+    max-width: 95%;
+    padding: 0 15%;
+}
+
+.skills h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.skills p{
+    background: gray;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 5px;
+    border: 3px solid transparent;
+    border-color: gray;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.skills p:hover{
+    background: transparent;
+    color: #000;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.extra{
+    max-width: 95%;
+    padding: 10% 15% 0;
+}
+
+.extra h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.extra div{
+    height: auto;
+    width: 550px;
+    display: list-item;
+    margin-bottom: 15px;
+}
+
+.extra div h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.extra .objective{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.language{
+    max-width: 95%;
+    padding: 10% 15%;
+}
+
+.language h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.language div{
+    height: auto;
+    width: 550px;
+    display: list-item;
+    margin-bottom: 15px;
+}
+
+.language div h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.language .objective{
+    font-size: 15px;
+    color: #f9004d;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.interests{
+    max-width: 95%;
+    padding: 0 15% 5%;
+}
+
+.interests h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.interests p{
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+    margin: 15px 5px;
+    border: 2px solid transparent;
+    border-color: gray;
+    border-radius: 5px;
+    transition: .3s;
+}
